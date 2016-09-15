@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PhotoViewCell.h
 //  InstaTumblr
 //
 //  Created by Monika Gupta on 9/14/16.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PhotoViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *photoView;
 
 @end
-

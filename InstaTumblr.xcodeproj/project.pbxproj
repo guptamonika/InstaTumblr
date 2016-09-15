@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC2F16111D89C448009B5063 /* PhotoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2F16101D89C448009B5063 /* PhotoViewCell.m */; };
+		DC2F16161D89C9AC009B5063 /* PhotoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2F16151D89C9AC009B5063 /* PhotoDetailsViewController.m */; };
 		DCD2C7811D89BFB600C69919 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD2C7801D89BFB600C69919 /* main.m */; };
 		DCD2C7841D89BFB600C69919 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD2C7831D89BFB600C69919 /* AppDelegate.m */; };
-		DCD2C7871D89BFB600C69919 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD2C7861D89BFB600C69919 /* ViewController.m */; };
+		DCD2C7871D89BFB600C69919 /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD2C7861D89BFB600C69919 /* PhotosViewController.m */; };
 		DCD2C78A1D89BFB600C69919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD2C7881D89BFB600C69919 /* Main.storyboard */; };
 		DCD2C78C1D89BFB600C69919 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD2C78B1D89BFB600C69919 /* Images.xcassets */; };
 		DCD2C78F1D89BFB600C69919 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD2C78D1D89BFB600C69919 /* LaunchScreen.xib */; };
 		DCD2C79B1D89BFB600C69919 /* InstaTumblrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD2C79A1D89BFB600C69919 /* InstaTumblrTests.m */; };
+		FC0C4ACE1F34365A9AB6BD28 /* libPods-InstaTumblr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E7A1E619BE5BD98C6417B8 /* libPods-InstaTumblr.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92CDF6ACE22B095B175F2ADA /* Pods-InstaTumblr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaTumblr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstaTumblr/Pods-InstaTumblr.debug.xcconfig"; sourceTree = "<group>"; };
+		A1E7A1E619BE5BD98C6417B8 /* libPods-InstaTumblr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaTumblr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B996D3796AC348CD3278B2B0 /* Pods-InstaTumblr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaTumblr.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstaTumblr/Pods-InstaTumblr.release.xcconfig"; sourceTree = "<group>"; };
+		DC2F160F1D89C448009B5063 /* PhotoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoViewCell.h; sourceTree = "<group>"; };
+		DC2F16101D89C448009B5063 /* PhotoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoViewCell.m; sourceTree = "<group>"; };
+		DC2F16141D89C9AC009B5063 /* PhotoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDetailsViewController.h; sourceTree = "<group>"; };
+		DC2F16151D89C9AC009B5063 /* PhotoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoDetailsViewController.m; sourceTree = "<group>"; };
 		DCD2C77B1D89BFB600C69919 /* InstaTumblr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaTumblr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD2C77F1D89BFB600C69919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCD2C7801D89BFB600C69919 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCD2C7821D89BFB600C69919 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCD2C7831D89BFB600C69919 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCD2C7851D89BFB600C69919 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCD2C7861D89BFB600C69919 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCD2C7851D89BFB600C69919 /* PhotosViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		DCD2C7861D89BFB600C69919 /* PhotosViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
 		DCD2C7891D89BFB600C69919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCD2C78B1D89BFB600C69919 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCD2C78E1D89BFB600C69919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0C4ACE1F34365A9AB6BD28 /* libPods-InstaTumblr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +71,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		783EB201EA7DC78D8F1276EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92CDF6ACE22B095B175F2ADA /* Pods-InstaTumblr.debug.xcconfig */,
+				B996D3796AC348CD3278B2B0 /* Pods-InstaTumblr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2F1DD6CD97114DCBF19D9A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1E7A1E619BE5BD98C6417B8 /* libPods-InstaTumblr.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC2F16121D89C450009B5063 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F16131D89C990009B5063 /* Controllers */,
+				DC2F160F1D89C448009B5063 /* PhotoViewCell.h */,
+				DC2F16101D89C448009B5063 /* PhotoViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DC2F16131D89C990009B5063 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC2F16141D89C9AC009B5063 /* PhotoDetailsViewController.h */,
+				DC2F16151D89C9AC009B5063 /* PhotoDetailsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		DCD2C7721D89BFB600C69919 = {
 			isa = PBXGroup;
 			children = (
+				DC2F16121D89C450009B5063 /* Views */,
 				DCD2C77D1D89BFB600C69919 /* InstaTumblr */,
 				DCD2C7971D89BFB600C69919 /* InstaTumblrTests */,
 				DCD2C77C1D89BFB600C69919 /* Products */,
+				783EB201EA7DC78D8F1276EB /* Pods */,
+				A2F1DD6CD97114DCBF19D9A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +133,8 @@
 			children = (
 				DCD2C7821D89BFB600C69919 /* AppDelegate.h */,
 				DCD2C7831D89BFB600C69919 /* AppDelegate.m */,
-				DCD2C7851D89BFB600C69919 /* ViewController.h */,
-				DCD2C7861D89BFB600C69919 /* ViewController.m */,
+				DCD2C7851D89BFB600C69919 /* PhotosViewController.h */,
+				DCD2C7861D89BFB600C69919 /* PhotosViewController.m */,
 				DCD2C7881D89BFB600C69919 /* Main.storyboard */,
 				DCD2C78B1D89BFB600C69919 /* Images.xcassets */,
 				DCD2C78D1D89BFB600C69919 /* LaunchScreen.xib */,
@@ -126,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCD2C79E1D89BFB600C69919 /* Build configuration list for PBXNativeTarget "InstaTumblr" */;
 			buildPhases = (
+				F319DE134D556CBDF036A031 /* [CP] Check Pods Manifest.lock */,
 				DCD2C7771D89BFB600C69919 /* Sources */,
 				DCD2C7781D89BFB600C69919 /* Frameworks */,
 				DCD2C7791D89BFB600C69919 /* Resources */,
+				DA673E083F9DC8EFC2F8712C /* [CP] Embed Pods Frameworks */,
+				8CFC14050250C61C9BA2D681 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +267,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8CFC14050250C61C9BA2D681 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaTumblr/Pods-InstaTumblr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA673E083F9DC8EFC2F8712C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstaTumblr/Pods-InstaTumblr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F319DE134D556CBDF036A031 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCD2C7771D89BFB600C69919 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD2C7871D89BFB600C69919 /* ViewController.m in Sources */,
+				DCD2C7871D89BFB600C69919 /* PhotosViewController.m in Sources */,
 				DCD2C7841D89BFB600C69919 /* AppDelegate.m in Sources */,
 				DCD2C7811D89BFB600C69919 /* main.m in Sources */,
+				DC2F16111D89C448009B5063 /* PhotoViewCell.m in Sources */,
+				DC2F16161D89C9AC009B5063 /* PhotoDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +450,7 @@
 		};
 		DCD2C79F1D89BFB600C69919 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CDF6ACE22B095B175F2ADA /* Pods-InstaTumblr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaTumblr/Info.plist;
@@ -357,6 +461,7 @@
 		};
 		DCD2C7A01D89BFB600C69919 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B996D3796AC348CD3278B2B0 /* Pods-InstaTumblr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = InstaTumblr/Info.plist;
@@ -418,6 +523,7 @@
 				DCD2C7A01D89BFB600C69919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCD2C7A11D89BFB600C69919 /* Build configuration list for PBXNativeTarget "InstaTumblrTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +532,7 @@
 				DCD2C7A31D89BFB600C69919 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
